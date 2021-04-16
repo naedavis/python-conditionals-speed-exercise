@@ -9,7 +9,7 @@ else:
      diff = current_speed - ave_speed
      points = diff / 5
      print("Your points are: " + str(points))
-if points >= 12:
+if points > 12:
      print("GO TO JAIL!")
 
 
